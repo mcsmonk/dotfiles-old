@@ -1,9 +1,9 @@
 {{ if eq .chezmoi.os "linux" -}}
 #!/bin/sh
 sudo apt install neovim
-sudo apt install ripgrep
+#sudo apt install ripgrep
 {{ else if eq .chezmoi.os "darwin" -}}
 #!/bin/sh
 brew install neovim
-brew install ripgrep
+#brew install ripgrep
 {{ end -}}

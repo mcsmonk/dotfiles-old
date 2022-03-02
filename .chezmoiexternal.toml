@@ -1,9 +1,9 @@
 [".oh-my-zsh"]
-    type = "archive"
-    url = "https://github.com/ohmyzsh/ohmyzsh/archive/master.tar.gz"
-    exact = true
-    stripComponents = 1
+    type = "git-repo"
+    url = "https://github.com/ohmyzsh/ohmyzsh.git"
     refreshPeriod = "168h"
+    [".oh-my-zsh".pull]
+        args = ["--ff-only"]
 [".oh-my-zsh/custom/themes/powerlevel10k"]
     type = "git-repo"
     url = "https://github.com/romkatv/powerlevel10k.git"
