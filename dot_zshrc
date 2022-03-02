@@ -132,3 +132,5 @@ source /etc/zsh/zsh_autocomplete_croc
 
 
 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
